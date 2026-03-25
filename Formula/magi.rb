@@ -1,30 +1,30 @@
 class Magi < Formula
   desc "Terminal-based Git client inspired by Magit"
   homepage "https://github.com/anddani/magi"
-  version "0.8.0"
+  version "0.9.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/anddani/magi/releases/download/v#{version}/magi-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "5b25d49c6b5cc79f96a5e99a0d52c34ec36dd25edbaab1ad6d956eec0b86a3ee"
+      sha256 "cda31ab1aa52751b574d7fd6e16ce234661de8e3d268380b2542e09134505736"
     end
 
     on_intel do
       url "https://github.com/anddani/magi/releases/download/v#{version}/magi-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "58e7c8509041ef3a0f8ab1fec3422606f271f77246d759680be82b328a5d613a"
+      sha256 "f1303d0a38f27ce57e237ca130e834a76a489808a86be583ba6198020e2ca5f0"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/anddani/magi/releases/download/v#{version}/magi-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "367a7562731adfb670a8971dfe591578a32f87d274959a10659f5c363ad05764"
+      sha256 "5f3fc93a208c9a902d5964292f5ec39afa6e5f7d3e5e89063aec6c3b49732706"
     end
 
     on_intel do
       url "https://github.com/anddani/magi/releases/download/v#{version}/magi-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0256b41e2d4ee28bae5ef300b44cc741234274553f1b3a4dd913881dad7b7cb1"
+      sha256 "ef4ebc4a97f8e82339c769d2a3e6bcfb6fe7f833bc52446cde5642c091111e84"
     end
   end
 
